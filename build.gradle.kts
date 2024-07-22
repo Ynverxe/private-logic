@@ -1,5 +1,4 @@
 plugins {
-    id("java")
     `kotlin-dsl`
 }
 
@@ -7,6 +6,7 @@ group = "com.github.ynverxe"
 version = "0.1.0"
 
 repositories {
+    gradlePluginPortal()
     mavenCentral()
 }
 
